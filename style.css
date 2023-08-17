@@ -8,15 +8,10 @@ img {
     border-radius: 5%;
 }
 
-.pan {
-    padding: 10px;
-
-}
-
-.pas {
-    padding: 10px;
-}
-
+.pan,
+.pas,
 .chick {
-    padding: 10px;
+    padding: 50px;
+    align-content: center;
+
 }
