@@ -16,18 +16,25 @@ img {
 .pan,
 .pas,
 .chick {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.img-link {
     background-color: #548CA8;
     height: 380px;
     width: 480px;
-    margin: 50px;
+    margin: 40px;
     padding: 40px;
     border-radius: 5%;
     box-sizing: border-box;
 
-
-
 }
 
+.link-para {
+    align-self: center;
+}
 
 
 h2 {
