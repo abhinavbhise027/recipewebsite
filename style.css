@@ -44,3 +44,11 @@ h2 {
 ul {
     margin-left: 40px;
 }
+
+#Spinach,
+#Okra,
+#pumpkin {
+    box-sizing: border-box;
+    padding: 40px;
+
+}
