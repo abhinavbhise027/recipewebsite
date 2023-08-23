@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    padding: 20px;
+
+}
+
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+}
+
+
+td {
+    padding: 8px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+tr:first-child {
+    background-color: #ccc;
+}
+
+
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+ol {
+    padding-left: 20px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+li {
+    margin-bottom: 10px;
+}

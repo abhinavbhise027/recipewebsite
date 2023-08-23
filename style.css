@@ -2,6 +2,8 @@ body {
     padding: 10px;
 }
 
+
+
 h1 {
     font-family: 'Times New Roman', serif;
     font-weight: bold;
@@ -14,7 +16,6 @@ img {
 }
 
 .pan,
-.pas,
 .chick {
     display: flex;
     justify-content: flex-start;
@@ -50,5 +51,7 @@ ul {
 #pumpkin {
     box-sizing: border-box;
     padding: 40px;
+    font-family: 'Times New Roman', serif;
+    font-size: large;
 
 }
