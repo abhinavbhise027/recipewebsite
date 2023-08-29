@@ -6,67 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 
 </head>
 
 <body>
-    <h1 style="text-align:center;">
-        Please select a recipe you would like to make!
-    </h1>
 
-    <div class="pan">
-        <div class="img-link">
-            <img src="pancakeimg.jpg" alt="image of a pancake">
-            <br>
-            <a href="pancakes.html"> pancakes</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Vegetable list
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#Spinach">Spinach</a></li>
+                            <li><a class="dropdown-item" href="#Okra">Okra</a></li>
+                            <li><a class="dropdown-item" href="#pumpkin">Pumpkin</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
         </div>
+    </nav>
 
-        <div class="link-para">
-            <p>
-                Click on this link to make some tasty pancakes!
-            </p>
+    <div class="card text-center mx-auto" style="width:350px;margin: 10%;">
+        <img src="pancakeimg.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Panckakes</h5>
+            <p class="card-text">Here is a really simple yet tasty pancake recipe you can make with just a few
+                ingredients !</p>
+            <a href="pancakes.html" class="btn btn-primary">Click me !</a>
         </div>
-
     </div>
 
 
-    <div class="chick">
-        <div class="img-link">
-            <img src="chickenbiryaniimg.jpg" alt="image of chicken biryani">
-            <br>
-            <a href="chickenbiryani.html"> Chicken biryani</a>
-        </div>
-
-        <div class="link-para">
-            <p>
-                Click on this link to make some tasty Chicken biryani!
-            </p>
+    <div class="card text-center mx-auto" style="width: 350px; margin: 10%">
+        <img src="chickenbiryaniimg.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Chicken Biryani</h5>
+            <p class="card-text">Here is a really simple yet tasty Chicken biryani recipe you can make with just a few
+                ingredients !</p>
+            <a href="chickenbiryani.html" class="btn btn-primary">Click me !</a>
         </div>
     </div>
 
     <h2>
-        Following are some household vegetables that are easy to prepare ! Click on them to more about how to prepare
-        them
+        Following are some household vegetables that are easy to prepare
     </h2>
 
 
-    <ul>
-        <li>
-            <a href="#Spinach">
-                Spinach
-            </a>
-        </li>
-        <li>
-            <a href="#Okra">
-                Okra
-            </a>
-        </li>
-        <li>
-            <a href="#pumpkin">
-                Pumpkin
-            </a>
-        </li>
-    </ul>
+
 
     <div id="Spinach">
         <p>
@@ -103,7 +107,7 @@
 
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"> </script>
 </body>
 
 </html>

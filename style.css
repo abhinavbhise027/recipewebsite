@@ -4,7 +4,8 @@ body {
 
 
 
-h1 {
+h1,
+h2 {
     font-family: 'Times New Roman', serif;
     font-weight: bold;
 }
