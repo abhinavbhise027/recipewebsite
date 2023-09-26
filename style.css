@@ -40,7 +40,7 @@ img {
 
 
 h2 {
-    margin: 60px;
+    padding: 40px;
 }
 
 ul {
@@ -55,4 +55,8 @@ ul {
     font-family: 'Times New Roman', serif;
     font-size: large;
 
+}
+
+#Spinach {
+    background-color: bisque;
 }
